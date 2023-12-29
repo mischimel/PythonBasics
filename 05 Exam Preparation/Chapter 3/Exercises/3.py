@@ -10,7 +10,7 @@ Following are the guidelines:
 """
 
 # User input
-age = int(input("Enter a persons age: "))
+age = float(input("Enter a persons age: "))
 
 if age < 0:
     print("invalid number, noone has a negative age")
