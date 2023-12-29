@@ -3,6 +3,6 @@
 #   print(i)
 
 # Real infinite loop
-from itertools import count
-for i in count():
+import itertools # the itertools.count() function generates an infinite sequence of numbers
+for i in itertools.count():
     print("Value of i: ", i)
