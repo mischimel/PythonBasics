@@ -5,7 +5,7 @@
 number = 1.0    # Initialize for while loop
 total = 0.0
 
-# Continue adding numbers while they are positive.
+# Continue adding numbers.txt while they are positive.
 while number > 0:
     number = float(input('Enter a positive number (negative to quit): '))
 

@@ -1,5 +1,5 @@
-# Assume a file containing a series of integers is named numbers.txt and exists on the computer’s disk.
-# Write a program that displays all of the numbers in the file.
+# Assume a file containing a series of integers is named numbers.txt.txt and exists on the computer’s disk.
+# Write a program that displays all of the numbers.txt in the file.
 
 # Create also a main method, ensure it is taken care of exceptions
 
@@ -13,7 +13,7 @@ def main():
 
         # Loop through all the lines in the file
         for line in infile:
-            print(line.strip())  # .strip() used to get rid of the empty lines between the numbers
+            print(line.strip())  # .strip() used to get rid of the empty lines between the numbers.txt
 
         # Close the file
         infile.close()

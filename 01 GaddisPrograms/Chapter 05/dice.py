@@ -1,7 +1,7 @@
 # This program simulates the rolling of dice.
 import random
 
-# Constants for the minimum and maximum random numbers
+# Constants for the minimum and maximum random numbers.txt
 MIN = 1
 MAX = 6
 

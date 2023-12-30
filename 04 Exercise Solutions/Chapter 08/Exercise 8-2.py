@@ -1,7 +1,7 @@
 # Programming Exercise 8-2
 
 def main():
-    # Get a string of numbers as input from the user.
+    # Get a string of numbers.txt as input from the user.
     number_string = input('Enter a sequence of digits '
                           'with nothing separating them: ')
 

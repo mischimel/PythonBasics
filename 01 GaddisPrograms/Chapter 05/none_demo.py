@@ -1,7 +1,7 @@
 # This program demonstrates the None keyword.
 
 def main():
-    # Get two numbers from the user.
+    # Get two numbers.txt from the user.
     num1 = int(input('Enter a number: '))
     num2 = int(input('Enter another number: '))
     

@@ -1,6 +1,6 @@
 """
 11. Math Quiz
-Write a program that gives simple math quizzes. The program should display two random numbers that are to be added, such as:
+Write a program that gives simple math quizzes. The program should display two random numbers.txt that are to be added, such as:
 247 + 129
 The program should allow the student to enter the answer. If the answer is correct, a message of congratulations should be displayed.
 If the answer is incorrect, a message showing the correct answer should be displayed.
@@ -32,7 +32,7 @@ def main():
 
 # The generate_question function accepts max_number
 # and returns a string of an addition question of
-# two numbers between 1 and max_number in the format
+# two numbers.txt between 1 and max_number in the format
 # "num1 + num2 = _____".
 def generate_question(max_number):
     num1 = random.randint(1, max_number)

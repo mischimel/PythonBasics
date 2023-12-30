@@ -1,8 +1,8 @@
 # This program uses a loop to display a
-# table of numbers and their squares.
+# table of numbers.txt and their squares.
 
 # Get the starting value.
-print('This program displays a list of numbers')
+print('This program displays a list of numbers.txt')
 print('and their squares.')
 start = int(input('Enter the starting number: '))
 
@@ -14,7 +14,7 @@ print()
 print('Number\tSquare')
 print('--------------')
 
-# Print the numbers and their squares.
+# Print the numbers.txt and their squares.
 for number in range(start, end + 1):
     square = number**2
     print(f'{number}\t{square}')

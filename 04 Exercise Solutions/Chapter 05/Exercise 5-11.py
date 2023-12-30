@@ -19,7 +19,7 @@ def main():
        
 # The generate_question function accepts max_number
 # and returns a string of an addition question of
-# two numbers between 1 and max_number in the format
+# two numbers.txt between 1 and max_number in the format
 # "num1 + num2 = _____".
 def generate_question(max_number):
     num1 = random.randint(1, max_number)

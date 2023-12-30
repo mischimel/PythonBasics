@@ -1,6 +1,6 @@
-# Write a program that writes a series of random numbers to a file.
+# Write a program that writes a series of random numbers.txt to a file.
 # Each random number should be in the range of 1 through 500.
-# The application should let the user specify how many random numbers the file will hold.
+# The application should let the user specify how many random numbers.txt the file will hold.
 
 import random
 
@@ -13,10 +13,10 @@ def main():
         # Open file for reading
         outfile = open("random_numbers.txt", "w")
 
-        # Ask the user how many numbers the file should hold
-        number_for_file = int(input("How many numbers should the file hold? "))
+        # Ask the user how many numbers.txt the file should hold
+        number_for_file = int(input("How many numbers.txt should the file hold? "))
 
-        # Loop to generate random numbers and write them to the file
+        # Loop to generate random numbers.txt and write them to the file
         count = 1
         while count <= number_for_file:
             outfile.write(str(random.randint(1, 500)) + "\n")

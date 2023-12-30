@@ -1,5 +1,5 @@
 # This program displays five random
-# numbers in the range of 1 through 100.
+# numbers.txt in the range of 1 through 100.
 import random # random is a module
 
 def main():

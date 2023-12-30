@@ -15,13 +15,13 @@ def main():
 
     # Get the number of items to write to the file.
     numberOfRandoms = int(input('Enter the number of '
-                                'random numbers to be '
+                                'random numbers.txt to be '
                                 'written to the file: '))
 
     # Open output file.
     outputFile = open(filename, 'w')
 
-    # Write specified number of random numbers to the file.
+    # Write specified number of random numbers.txt to the file.
     for counter in range(numberOfRandoms):
         randomNumber = random.randint(1, 500)
         outputFile.write(str(randomNumber) + '\n')

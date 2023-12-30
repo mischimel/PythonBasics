@@ -1,4 +1,4 @@
-# This program assigns random numbers to
+# This program assigns random numbers.txt to
 # a two-dimensional list.
 import random
 
@@ -12,12 +12,12 @@ def main():
               [0, 0, 0, 0],
               [0, 0, 0, 0]]
 
-    # Fill the list with random numbers.
+    # Fill the list with random numbers.txt.
     for r in range(ROWS):
         for c in range(COLS):
             values[r][c] = random.randint(1, 100)
 
-    # Display the random numbers.
+    # Display the random numbers.txt.
     print(values)
 
 # Call the main function.

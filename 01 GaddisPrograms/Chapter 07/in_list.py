@@ -2,7 +2,7 @@
 # used with a list.
 
 def main():
-    # Create a list of product numbers.
+    # Create a list of product numbers.txt.
     prod_nums = ['V475', 'F987', 'Q143', 'R688']
 
     # Get a product number to search for.
