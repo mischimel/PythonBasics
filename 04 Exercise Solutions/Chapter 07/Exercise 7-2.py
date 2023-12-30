@@ -4,14 +4,14 @@ import random
 
 
 def main():
-    # Initialize list of numbers.txt.
+    # Initialize list of numbers.
     number_list = [0, 0, 0, 0, 0, 0, 0]
 
-    # Assign random numbers.txt to list.
+    # Assign random numbers to list.
     for i in range(7):
         number_list[i] = random.randint(0, 9)
 
-    # Display numbers.txt in a single line.
+    # Display numbers in a single line.
     for i in range(7):
         print(number_list[i], end='')
 

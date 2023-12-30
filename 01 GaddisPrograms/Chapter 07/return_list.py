@@ -6,10 +6,10 @@ def main():
     numbers = get_values()
 
     # Display the values in the list.
-    print('The numbers.txt in the list are:')
+    print('The numbers in the list are:')
     print(numbers)
 
-# The get_values function gets a series of numbers.txt
+# The get_values function gets a series of numbers
 # from the user and stores them in a list. The
 # function returns a reference to the list.
 def get_values():

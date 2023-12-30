@@ -1,19 +1,19 @@
-# Design a program that asks the user to enter a series of 20 numbers.txt.
-# The program should store the numbers.txt in a list then display the following data:
+# Design a program that asks the user to enter a series of 20 numbers.
+# The program should store the numbers in a list then display the following data:
 # • The lowest number in the list
 # • The highest number in the list
-# • The total of the numbers.txt in the list
-# • The average of the numbers.txt in the list
+# • The total of the numbers in the list
+# • The average of the numbers in the list
 
 import statistics
 
 # main method
 def main():
 
-    # Initalize empty list for the numbers.txt
+    # Initalize empty list for the numbers
 
     numbers = []
-    # Loop to ask user for input and store numbers.txt in a list
+    # Loop to ask user for input and store numbers in a list
     for i in range(1,21,1):
         num = int(input(f"Number #{i} is: "))
         numbers.append(num)

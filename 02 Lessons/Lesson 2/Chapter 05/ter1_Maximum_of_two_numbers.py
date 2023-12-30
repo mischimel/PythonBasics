@@ -1,7 +1,7 @@
 # Write a program that determines – using a function –
 # the minimum of three integers which are read from the console.
 
-# Method for finding the maximum of two numbers.txt
+# Method for finding the maximum of two numbers
 def maximum(num_1, num_2):
     if num_1 < num_2:
         return num_2

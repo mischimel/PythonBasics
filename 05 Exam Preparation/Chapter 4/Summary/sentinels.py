@@ -6,7 +6,7 @@ sentinel = -1  # Define the sentinel value
 # Initialize the total accumulator
 total = 0
 
-# Loop to read numbers.txt until the sentinel is encountered
+# Loop to read numbers until the sentinel is encountered
 while True:
     value = float(input("Enter a number (or -1 to end): "))
 

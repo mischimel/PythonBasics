@@ -9,5 +9,5 @@ for i in range(10**100):
 # Real infinite loop
 import itertools
 
-for i in itertools.count(): # the itertools.count() function generates an infinite sequence of numbers.txt
+for i in itertools.count(): # the itertools.count() function generates an infinite sequence of numbers
     print("Value of i: ", i)

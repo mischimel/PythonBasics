@@ -1,4 +1,5 @@
-# This program gets a numeric test score from the user and displays the corresponding letter grade.
+# This program gets a numeric test score from the
+# user and displays the corresponding letter grade.
 
 # Variables to represent the grade thresholds
 A_score = 90

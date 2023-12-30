@@ -1,6 +1,6 @@
 # In a program, write a function that accepts two arguments:
-# a list, and a number n. Assume that the list contains numbers.txt.
-# The function should display all of the numbers.txt in the list that are greater than the number n.
+# a list, and a number n. Assume that the list contains numbers.
+# The function should display all of the numbers in the list that are greater than the number n.
 
 # Create the function
 def greather_n(list, n):

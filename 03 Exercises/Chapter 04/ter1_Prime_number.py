@@ -13,6 +13,6 @@ if number > 1:
 else:
     print(f"{number} is either 0, 1, or negative, and therefore not a prime.")
 
-# * To optimize the loop, we don't need to check numbers.txt greater than half of the entered number.
+# * To optimize the loop, we don't need to check numbers greater than half of the entered number.
 # This is because if a number is divisible by any number greater than half of itself,
 # it would also be divisible by a smaller number (less than half of itself), which we've already checked.

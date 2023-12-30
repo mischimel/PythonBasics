@@ -12,6 +12,6 @@ def max(num_1, num2):
     elif num2 > num_1:
         print(num2)
     else:
-        print("the two numbers.txt are equal!")
+        print("the two numbers are equal!")
 
 max(num_1,num_2)

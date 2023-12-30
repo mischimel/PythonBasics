@@ -15,4 +15,4 @@ print ('-------------------------------')
 # Execute the for loop to display calories burned.
 for minutes in range(10, 31, 5):
     caloriesBurned = caloriesPerMinute * minutes
-    print (minutes, "\t\t\t", caloriesBurned)
+    print (minutes, "\t\t", caloriesBurned) 

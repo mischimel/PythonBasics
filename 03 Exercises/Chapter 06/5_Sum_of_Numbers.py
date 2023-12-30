@@ -1,5 +1,5 @@
-# Assume a file containing a series of integers is named numbers.txt.txt and exists on the computer’s disk.
-# Write a program that reads all of the numbers.txt stored in the file and calculates their total.
+# Assume a file containing a series of integers is named numbers.txt and exists on the computer’s disk.
+# Write a program that reads all of the numbers stored in the file and calculates their total.
 
 # Main method
 def main():
@@ -16,7 +16,7 @@ def main():
             print(line.strip())
             total += int(line)
 
-        print(f"The total of the numbers.txt in the file is {total}")
+        print(f"The total of the numbers in the file is {total}")
 
         infile.close()
 

@@ -15,4 +15,4 @@ def find_max(a, b, c) -> int:
 
 
 # Call the function
-print("The maximum of numbers.txt entered is", find_max(number_one, number_two, number_three))
+print("The maximum of numbers entered is", find_max(number_one, number_two, number_three))

@@ -1,7 +1,7 @@
 # Programming Exercise 7-4
 
 def main():
-    # List to store numbers.txt
+    # List to store numbers
     number_list = []
 
     # Variables
@@ -11,7 +11,7 @@ def main():
     average = 0.0
     number = 0
 
-    # Prompt for numbers.txt
+    # Prompt for numbers 
     for i in range(20):
         number = float(input(f'Enter number {i + 1} of 20: '))
         number_list.append(number)

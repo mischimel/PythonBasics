@@ -20,7 +20,7 @@ elif number_of_packages in range(50,100):   # range 50-99
     discount_percentage = 0.3
 elif number_of_packages >= 100:
     discount_percentage = 0.4
-else:                                       # for numbers.txt smaller 10
+else:                                       # for numbers smaller 10
     discount_percentage = 0
 
 
@@ -34,7 +34,7 @@ elif 20 <= number_of_packages <= 49:        # range can also be defined like thi
     discount_percentage = 0.2
 elif number_of_packages in range(50,100):   # range 50-99
     discount_percentage = 0.3
-else:                                       # all numbers.txt equal or bigger 100
+else:                                       # all numbers equal or bigger 100
     discount_percentage = 0.4
 """
 

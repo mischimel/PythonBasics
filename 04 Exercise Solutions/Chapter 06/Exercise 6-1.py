@@ -5,7 +5,7 @@ def main():
     contents = ''
 
     try:
-        # Open numbers.txt.txt file for reading
+        # Open numbers.txt file for reading
         infile = open('numbers.txt', 'r')
 
         # Option 1: Easiest solution
