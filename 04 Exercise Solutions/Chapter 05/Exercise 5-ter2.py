@@ -1,7 +1,6 @@
 # You need to install the package googletrans 4.0.0.rc1 in order to fix a bug
 from googletrans import Translator
 
-
 # Define function
 def translate_text(text_from_lang) -> str:
     translator = Translator()
